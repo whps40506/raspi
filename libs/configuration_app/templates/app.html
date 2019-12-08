@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <div id="mainContent">
+
+    <h2>Mosquito Wifi Setup</h2>
+
+    <form action="{{ url_for('save_credentials') }}" method=post>
+      <ul>
+        <li><label for="ssid">Select Wifi</label></li>
+
+        <li class="wifiNetwork">
+          <select id="ssid" name="ssid", class="wifiNetworkInputs">
+            {% for ssid in wifi_ap_array %}
+              <option value='{{ ssid }}'>{{ ssid }}</option>
+            {% endfor %}
+          </select>
+        </li>
+
+        <li><label for="wifi_key">Wifi password</label></li>
+        <li><input type="password" name="wifi_key", class="wifiNetworkInputs"></li>
+
+        <input type="submit", class="wifiConnectButton">
+      </ul>
+    </form>
+  </div>
+{% endblock %}
