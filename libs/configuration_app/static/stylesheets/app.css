@@ -21,13 +21,15 @@ div#mainContent{
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    font-family:Arial;
     font-size: 3.5rem;
     color: #fff;
 }
 
-div#mainContent h1 {
+div#mainContent h6 {
     margin:0 0 .5em 0;
-    font-size:3rem;
+    font-family:Arial;
+    font-size:2rem;
 }
 
 div#mainContent ul{
@@ -78,6 +80,7 @@ li.wifiNetwork:after {
     width: 25px;
     color: #deab04;
     font-weight: bold;
+    font-family:Arial;
     font-size: 1.4rem;
     right: 0px;
     top: 40%;
@@ -93,6 +96,7 @@ select.wifiNetworkInputs {
     color: #999;
     border: none;
     outline: none;
+    font-family:Arial;
     font-size: 1.5rem;
     padding: 1em;
     margin: 0;
@@ -107,6 +111,7 @@ select.wifiNetworkInputs {
 .wifiNetworkInputs{
     width: 100%;
     padding:1em;
+    font-family:Arial;
     font-size: 1.4rem;
     color: #999;
     background: #111;
@@ -118,6 +123,7 @@ select.wifiNetworkInputs {
     margin:2em 0;
     padding:.5em;
     background-color: #deab04;
+    font-family:Arial;
     font-size: 2rem;
     color: #fff;
 }
@@ -140,6 +146,7 @@ div#saveCredentialsOutput{
   width: 60%;
   margin: 0 0 0 20%;
   text-align: center;
+  font-family:Arial;
   font-size: 1.7em;
 }
 
@@ -181,6 +188,7 @@ div#saveCredentialsOutput{
         width: 50px;
         color: #deab04;
         font-weight: bold;
+        font-family:Arial;
         font-size: 2rem;
         right: 0px;
         bottom: 50px;
